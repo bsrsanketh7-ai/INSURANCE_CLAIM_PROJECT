@@ -30,7 +30,7 @@ CLASS_BASE_COST = {
     "Broken Part": 10000,
     "Deformation": 20000,
     "Light Broken": 8000,
-    "Broken Glass": 00000
+    "Broken Glass": 8000
 }
 
 # Load YOLO model once
