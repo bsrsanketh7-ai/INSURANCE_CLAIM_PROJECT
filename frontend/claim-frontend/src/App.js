@@ -7,13 +7,13 @@ const BACKEND_URL = "http://127.0.0.1:9000/predict";
  * Frontend-side base costs for per-detection breakdown.
  */
 const CLASS_BASE_COST = {
-  "Dent": 4500,
-  "Crack": 9000,
-  "Paint Scratch": 5200,
-  "Broken Part": 20000,
-  "Deformation": 30000,
-  "Light Broken": 12000,
-  "Broken Glass": 18000
+  "Dent": 3000,
+  "Crack": 5000,
+  "Paint Scratch": 3500,
+  "Broken Part": 10000,
+  "Deformation": 20000,
+  "Light Broken": 8000,
+  "Broken Glass": 8000
 };
 
 function computeDetCost(base_cost, conf, area_ratio) {
